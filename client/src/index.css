@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Nunito+Sans:ital,wght@0,400;0,500;0,700;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;1,700&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+/* Firefox */
+* {
+    scrollbar-width: thin;
+  }
+  
+/* Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+    width: 10px;
+}
+
+*::-webkit-scrollbar-track {
+    border-radius: 100px;
+    background-color: none;
+}
+
+*::-webkit-scrollbar-thumb {
+    border-radius: 14px;
+    border: 2px solid ;
+}
+  
+@layer base {
+    body {
+        @apply relative
+    }
+    h1 {
+        @apply text-5xl
+    }
+    h2 {
+        @apply text-2xl
+    }
+}
+
+

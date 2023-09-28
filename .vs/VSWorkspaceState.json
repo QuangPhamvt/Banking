@@ -1,0 +1,11 @@
+{
+  "ExpandedNodes": [
+    "\\client",
+    "\\client\\src",
+    "\\client\\src\\hooks",
+    "\\client\\src\\pages",
+    "\\client\\src\\store",
+    "\\client\\src\\store\\report"
+  ],
+  "PreviewInSolutionExplorer": false
+}
